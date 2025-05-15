@@ -5,8 +5,7 @@ Projeto acadêmico baseado no uso de **autômatos celulares** para modelagem e s
 ---
 
 ## 📷 Demonstração
-
-![Demonstração do projeto](https://user-images.githubusercontent.com/your-screenshot-url-aqui)
+<img src="/resources/transito-autonomo.gif">
 
 ---
 

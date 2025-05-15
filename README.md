@@ -1,4 +1,4 @@
-# 🚦 Simulação de Trânsito com Autômatos Celulares em JavaFX
+# 🚦 Simulação de Trânsito Autônomo em JavaFX
 
 Projeto acadêmico baseado no uso de **autômatos celulares** para modelagem e simulação de tráfego urbano, desenvolvido com **JavaFX** e **programação concorrente** para representar a movimentação de veículos e o controle de semáforos.
 

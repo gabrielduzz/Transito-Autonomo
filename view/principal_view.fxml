@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8.0.351" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.PrincipalController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="720.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/cidade.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="purple_route" fitHeight="720.0" fitWidth="720.0" layoutX="-69.0" layoutY="1.0" onMouseClicked="#show_purple_route" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../resources/percurso%20carro%20roxo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="green_route" fitHeight="720.0" fitWidth="720.0" layoutX="1.0" onMouseClicked="#show_green_route" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../resources/percurso%20carro%20verde%20claro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="blue_route" fitHeight="720.0" fitWidth="720.0" layoutX="-3.0" onMouseClicked="#show_blue_route" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../resources/percurso%20carro%20azul.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="orange_route" fitHeight="720.0" fitWidth="720.0" layoutX="204.0" onMouseClicked="#show_orange_route" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../resources/percurso%20carro%20laranja.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aqua_route" fitHeight="720.0" fitWidth="720.0" layoutX="-137.0" layoutY="-134.0" onMouseClicked="#show_aqua_route" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../resources/percurso%20carro%20verde%20água.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gray_route" fitHeight="720.0" fitWidth="720.0" layoutX="-1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../resources/percurso%20carro%20preto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="black_route" fitHeight="720.0" fitWidth="720.0" layoutX="-2.0" layoutY="4.0" onMouseClicked="#show_black_route" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../resources/percurso%20carro%20preto.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="768.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="gray_route" fitHeight="720.0" fitWidth="720.0" onMouseClicked="#show_gray_route" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../resources/percurso%20carro%20cinza.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="red_route" fitHeight="720.0" fitWidth="720.0" layoutX="-203.0" layoutY="-1.0" onMouseClicked="#show_red_route" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../resources/percurso%20carro%20vermelho.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="red_car_image" fitHeight="41.0" fitWidth="28.0" layoutX="279.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/carro_vermelho.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="purple_car_image" fitHeight="41.0" fitWidth="28.0" layoutX="140.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../resources/carro_roxo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aqua_car_image" fitHeight="41.0" fitWidth="28.0" layoutX="313.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../resources/carro_verde_agua.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="730.0" fitWidth="243.0" layoutX="720.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/controle.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="red_car_slider" blockIncrement="1.0" layoutX="790.0" layoutY="294.0" max="10.0" min="1.0" prefHeight="31.0" prefWidth="156.0" rotate="180.0" stylesheets="@Style.css" value="5.5" />
+      <Slider fx:id="purple_car_slider" blockIncrement="1.0" layoutX="790.0" layoutY="373.0" max="10.0" min="1.0" prefHeight="31.0" prefWidth="156.0" rotate="180.0" stylesheets="@Style.css" value="5.5" />
+      <Slider fx:id="aqua_car_slider" blockIncrement="1.0" layoutX="793.0" layoutY="452.0" max="10.0" min="1.0" prefHeight="31.0" prefWidth="156.0" rotate="180.0" stylesheets="@Style.css" value="5.5" />
+      <ImageView fx:id="black_car_image" fitHeight="41.0" fitWidth="28.0" layoutX="382.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@../resources/carro_preto.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="black_car_slider" blockIncrement="1.0" layoutX="790.0" layoutY="132.0" max="10.0" min="1.0" prefHeight="31.0" prefWidth="156.0" rotate="180.0" stylesheets="@Style.css" value="5.5" />
+      <Slider fx:id="gray_car_slider" blockIncrement="1.0" layoutX="790.0" layoutY="214.0" max="10.0" min="1.0" prefHeight="31.0" prefWidth="156.0" rotate="180.0" stylesheets="@Style.css" value="5.5" />
+      <ImageView fx:id="gray_car_image" fitHeight="41.0" fitWidth="28.0" layoutX="313.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../resources/carro_cinza.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="orange_car_slider" blockIncrement="1.0" layoutX="790.0" layoutY="532.0" max="10.0" min="1.0" prefHeight="31.0" prefWidth="156.0" rotate="180.0" stylesheets="@Style.css" value="5.5" />
+      <ImageView fx:id="orange_car_image" fitHeight="41.0" fitWidth="28.0" layoutX="416.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/carro_laranja.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="blue_car_slider" blockIncrement="1.0" layoutX="790.0" layoutY="611.0" max="10.0" min="1.0" prefHeight="31.0" prefWidth="156.0" rotate="180.0" stylesheets="@Style.css" value="5.5" />
+      <ImageView fx:id="blue_car_image" fitHeight="41.0" fitWidth="28.0" layoutX="520.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@../resources/carro_azul.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="light_green_car_slider" blockIncrement="1.0" layoutX="790.0" layoutY="691.0" max="10.0" min="1.0" prefHeight="31.0" prefWidth="156.0" rotate="180.0" stylesheets="@Style.css" value="5.5" />
+      <ImageView fx:id="light_green_car_image" fitHeight="41.0" fitWidth="28.0" layoutX="554.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/carro_verde_claro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause1" fitHeight="43.0" fitWidth="43.0" layoutX="796.0" layoutY="92.0" onMouseClicked="#pause_black_car" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/pause%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause2" fitHeight="43.0" fitWidth="43.0" layoutX="796.0" layoutY="171.0" onMouseClicked="#pause_gray_car" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/pause%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause3" fitHeight="43.0" fitWidth="43.0" layoutX="796.0" layoutY="251.0" onMouseClicked="#pause_red_car" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/pause%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause4" fitHeight="43.0" fitWidth="43.0" layoutX="796.0" layoutY="330.0" onMouseClicked="#pause_purple_car" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/pause%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause5" fitHeight="43.0" fitWidth="43.0" layoutX="796.0" layoutY="409.0" onMouseClicked="#pause_aqua_car" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/pause%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause6" fitHeight="43.0" fitWidth="43.0" layoutX="796.0" layoutY="490.0" onMouseClicked="#pause_orange_car" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/pause%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause7" fitHeight="43.0" fitWidth="43.0" layoutX="796.0" layoutY="570.0" onMouseClicked="#pause_blue_car" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/pause%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause8" fitHeight="43.0" fitWidth="43.0" layoutX="796.0" layoutY="649.0" onMouseClicked="#pause_green_car" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/pause%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="route_button1" fitHeight="43.0" fitWidth="43.0" layoutX="897.0" layoutY="94.0" onMouseClicked="#show_black_route" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/route%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="route_button2" fitHeight="43.0" fitWidth="43.0" layoutX="898.0" layoutY="173.0" onMouseClicked="#show_gray_route" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/route%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="route_button3" fitHeight="43.0" fitWidth="43.0" layoutX="898.0" layoutY="250.0" onMouseClicked="#show_red_route" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/route%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="route_button4" fitHeight="43.0" fitWidth="43.0" layoutX="899.0" layoutY="333.0" onMouseClicked="#show_purple_route" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/route%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="route_button5" fitHeight="43.0" fitWidth="43.0" layoutX="900.0" layoutY="410.0" onMouseClicked="#show_aqua_route" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/route%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="route_button6" fitHeight="43.0" fitWidth="43.0" layoutX="898.0" layoutY="490.0" onMouseClicked="#show_orange_route" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/route%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="route_button7" fitHeight="43.0" fitWidth="43.0" layoutX="901.0" layoutY="569.0" onMouseClicked="#show_blue_route" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/route%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="route_button8" fitHeight="43.0" fitWidth="43.0" layoutX="899.0" layoutY="648.0" onMouseClicked="#show_green_route" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/route%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="reset_button" fitHeight="74.0" fitWidth="63.0" layoutX="730.0" layoutY="12.0" onMouseClicked="#reset" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/reset%20button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close_button" fitHeight="74.0" fitWidth="63.0" layoutX="889.0" layoutY="13.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/close%20button.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
